@@ -10,7 +10,7 @@ switch (b) //b = Bill, jadi jika di case tidak ada Bill, maka otomatis yang diek
   case "Billy":
     hasil = "ini Aku";
     break;
-  default: //misal udah gaada yg cocok ni
+  default: //misal udah gaada yg cocok nih
     hasil = "Tidak ada yg cocok";
 }
 console.log(hasil);
