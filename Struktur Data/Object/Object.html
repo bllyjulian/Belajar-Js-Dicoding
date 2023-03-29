@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        // object itu adalah tipe data juga yang bisa menampung banyak tipe data menggunakan {} untuk proses inisialisasinya
+
+        const profil = {
+            nama : "Billy",
+            alamat : "Jawa Timur"
+        };
+        console.log(profil);
+
+        //object juga bisa menyimpan banyak tipe data sekaligus
+        const profilLengkap = {
+            nama : "Billy",
+            umur : 19,
+            alamat : "Jawa Timur",
+            tanggalLahir : "30 Juli 2003"
+        };
+        // alert("Haloo, nama saya adalah " + profilLengkap.nama + " Umur saya adalah " + profilLengkap.umur); //daripada ribet nambah + + terus, mending pakai ${}
+       
+        // alert(`Halo, nama saya adalah ${profilLengkap.nama} umur saya adalah ${profilLengkap.umur} alamat saya di ${profilLengkap.alamat} tanggal lahir saya adalah ${profilLengkap.tanggalLahir}`); //hasilnya sama aja tapi biar lebih keren aja gitu 
+ const restaurant = {
+  name : "Bakso Mang Dicoding",
+  city : "Bandung",
+  'favorite drink' : "Es Teh",
+  'favorite food' : "Bakso",
+  isVegan : false
+};
+let name = restaurant.name;
+console.log(name)
+let ff = restaurant['favorite drink']
+
+console.log(ff)
+
+let evenNumber = [];
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    evenNumber.push(i);
+  }
+}
+console.log(evenNumber)
+    </script>
+</body>
+</html>

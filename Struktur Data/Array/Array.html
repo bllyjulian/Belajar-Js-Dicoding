@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        //Array itu adalah variabel yang bisa menyimpan banyak nilai
+        //ada bbrapa aturan atau metode di dalam array yaitu : push(), pop(), shift(), unshift(), delete(), dan splice()
+        let arrayKu = ["Aku", "Billy", "umur", 19];
+        //nampilin array pake index nya, contoh
+        console.log(arrayKu[0]) //maka yang tampil adalah "Aku" kan array itu indexnya dimulai dari 0
+        console.log(arrayKu[1])
+        console.log(arrayKu[2]) 
+        console.log(arrayKu[3])
+        console.log(arrayKu[10]) //dan jika kita mengakses index array yang tidak ada di deret maka otomatis menjadi undefinied
+        console.log("panjang array adalah " + arrayKu.length) //length digunakan untuk mengetahui panjang index array
+
+        //push() : menambahkan data di akhir array
+        let arrayPush = ["Aku", "Billy", "umur", 19];
+        arrayPush.push('hobi')
+        console.log(arrayPush)
+
+        //pop() : menghapus data di akhir array
+        let arrayPop = ["Aku", "Billy", "umur", 19];
+        arrayPop.pop()
+        console.log(arrayPop) //maka 19 akan dihapus
+
+        //shift() : untuk mengeluarkan elemen pertama array
+        //unshift() : untuk menambah elemen pertama array
+        let arrayS = ["Aku", "Billy", "umur", 19];
+        arrayS.shift() //maka "aku akan dikeluarkan"
+        arrayS.unshift("Saya") //diganti ini
+        console.log(arrayS)
+
+        //delete() : untuk menghapus
+        let arrayD = ["Aku", "Billy", "umur", 19];
+        delete arrayD[0] //penulisannya like this
+        console.log(arrayD) //index ke 0 outputnya bakal empty karena hanya menghapus index bukan elemen
+
+        //splice() : untuk menghapus elemennya
+        let arraySc = ["Aku", "Billy", "umur", 19];
+        arraySc.splice[0] //penulisannya like this
+        console.log(arraySc) 
+        
+        </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spread Operator</title>
+</head>
+<body>
+  <script>
+    //spead Operator itu untuk mengatur nilai array jadi lebih simple, penggunaannya menggunakan ...
+
+    let makanan = ["Bakso", "Ayam Geprek", "Seblak", "Mie"]
+
+    console.log(makanan) //nah ini kan biasa
+    console.log(...makanan) //ini pake spread operator
+    //bedanya apa? dengan spead operator, brati kita menuliskan kode kek gini
+    console.log(makanan[0], makanan[1], makanan[2], makanan[3])
+
+    //spread operator juga bisa menggabungkan dua array, misalnya gini
+    let minuman = ["Air", "Jus", "Boba", "Susu"]
+
+    let all = [makanan, minuman] //kalo gini bukan bergabung melainkan bkin array baru yang menampung kedua nilai array makanan dan minuman, gituu
+    console.log(all)
+
+    let allSpeadOperator = [...makanan, ...minuman] //ini proses penggabungan dua array pake speadOperator
+    console.log(allSpeadOperator) //maka length nya jadi 8
+    
+    //selain menggabungkan array, bisa juga menggabungkan objek biar lebih simple
+
+    let profil = {
+      nama : "Billy",
+      umur : 19
+    }
+    let info = {
+      hobi : "Ngegame",
+      namaPacar : null
+    }
+    let dataDiri = {...profil, ...info}
+
+    console.log(dataDiri)
+  </script>
+</body>
+</html>
