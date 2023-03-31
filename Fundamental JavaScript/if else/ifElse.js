@@ -38,5 +38,5 @@ let name = "";
 if (name) {
   console.log(`Halo, ${name}`);
 } else {
-  console.log("Nama masih kosong"); //yg dieksekusi, karna nilai di variable nama itu gaada
+  console.log("Nama masih kosong"); //ini yg dieksekusi, karna nilai di variable nama itu gaada
 }

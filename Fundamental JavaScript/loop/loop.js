@@ -1,5 +1,5 @@
 //loop itu perulangan, kaya misal kita menemui suatu kondisi yang memungkinkan kondisi tersebut harus diulang bbrapa kali, maka jangan ngetik syntax nya berkali kali, pake loop aja
-//loop yang paling sering digunakan itu ada tiga : for loop, while, dan do while, ada juga for of sama infinite loop
+//loop yang paling sering digunakan itu ada tiga : for loop, while, dan do while, ada juga for of sama infinite loop.
 
 //for loop
 for (let b = 0; b < 10; b++) {

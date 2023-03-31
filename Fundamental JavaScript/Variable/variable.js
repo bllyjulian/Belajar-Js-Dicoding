@@ -7,7 +7,7 @@ console.log(name1);
 
 let name2; //let itu nilainya bisa diubah ubah
 name2 = "Billyy";
-name2 = "joy";
+name2 = "joy"; //nanti outputnya gini
 console.log(name2);
 
 const name3 = "billyyy";

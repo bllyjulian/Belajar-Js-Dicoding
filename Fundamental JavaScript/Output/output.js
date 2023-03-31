@@ -10,4 +10,4 @@ prompt("masukkan namamu : "); //prompt ini sama kaya scanner di java, untuk meny
 let inputNama = prompt("masukkan Nama : ");
 alert(`Oke, namamu adalah ${inputNama}`);
 
-console.log(inputNama); //ini tampilnya di console, klik kanan inspec element => console
+console.log(inputNama); //ini tampilnya di console, klik kanan inspec element => console.

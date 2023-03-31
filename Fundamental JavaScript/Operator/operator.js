@@ -1,4 +1,4 @@
-//Operator itu intinya membandingkan/menginisialisasikan
+//Operator itu intinya membandingkan / menginisialisasikan
 let b = 219;
 let d = 231;
 b += d; //artinya gini b = b + d;

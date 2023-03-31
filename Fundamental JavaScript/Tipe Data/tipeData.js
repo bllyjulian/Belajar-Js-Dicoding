@@ -9,7 +9,7 @@ num2 = 43;
 console.log(typeof num2); // brati cek tipe data di variabel num2
 console.log(num1);
 console.log(num1++); //++ nya di belakang artinya sesudah ini, next nya baru di tambah
-console.log(num1); //maka outputnya bakal 35
+console.log(num1); //maka nanti outputnya bakal 35
 console.log(++num2); //++ di depan artinya lgsg ditambah gitu
 
 let jumlah = num1 + num2; //bisa juga di operasikan, disini aku ngasi contoh satu aja
