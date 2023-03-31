@@ -1,4 +1,4 @@
-//if else itu ya percabangan, wajib bgt dipahami
+//if else itu ya percabangan, intinya wajib bgt dipahami
 let billy = true;
 let kamu = false;
 
