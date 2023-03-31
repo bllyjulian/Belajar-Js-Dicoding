@@ -9,7 +9,7 @@ if (billy) {
   //dan jika di kondisi bukan masukin billy, tapi bukanBilly, maka yg dieksekusi yg ini
   console.log("bukan billy");
 }
-bidsbfuksabdbs;
+bidsbfuksabdbss;
 //else if
 let b = "Bangun";
 let t = "Tidur";
